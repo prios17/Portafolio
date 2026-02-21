@@ -1,0 +1,56 @@
+:root {
+    --red-snoopy: #e60000;
+    --yellow-woodstock: #ffcc00;
+    --black: #111111;
+    --white: #ffffff;
+    --gray-bg: #f8f9fa;
+}
+
+body {
+    font-family: "Onest", sans-serif;
+    margin: 0;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.app-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: var(--white);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.app-bar h2 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--red-snoopy);
+}
+
+.app-bar h2 img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    object-position: center top; 
+    border-radius: 50%;
+    border: 2px solid var(--black);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--red-snoopy);
+}
