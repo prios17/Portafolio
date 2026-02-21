@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Snoopy - Portafolio Personal</h1>
+    <header class="app-bar">
+        <h2>
+            <img src="assets/iconosnoopy.jpg" alt="Icono Snoopy">
+            Snoopy
+        </h2>
         <nav>
             <a href="#biografia">Biografía</a>
             <a href="#estilos">Alter Egos</a>
@@ -16,13 +19,42 @@
         </nav>
     </header>
 
-    <section id="biografia">
-        <h2>El Beagle más famoso del mundo</h2>
-        <p>Aventurero, escritor y el mejor amigo que Charlie Brown!.</p>
+    <section id="biografia" class="banner">
+        <h1>El Beagle más famoso del mundo</h1>
+        <img src="assets/Snoopy.png" alt="Snoopy y Woodstock">
+        <p>Aventurero, escritor y el mejor amigo que Charlie Brown podría pedir. Con una imaginación infinita sobre su casita roja.</p>
+        <button>Descubrir más</button>
+    </section>
+
+    <section id="estilos" class="gallery">
+        <h2>Sus Alter Egos</h2>
+        <div class="tarjetas">
+            <article>
+                <img class="foto-tarjeta" src="assets/joe cool.jpg" alt="Joe Cool">
+                <h3>Joe Cool</h3>
+                <p>¡El Universitario más cool que podrás conocer!</p>
+            </article>
+            
+            <article>
+                <img class="foto-tarjeta" src="assets/snoopy aviador.jpg" alt="Snoopy Aviador">
+                <h3>Snoopy Aviaciador</h3> 
+                <p>Volando los cielos imaginarios para enfrentar al temible Barón Rojo.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="amigos" class="info">
+        <h2>La Pandilla</h2>
+        <img class="foto-amigos" src="assets/images.jpg" alt="La pandilla Peanuts completa">
+        <ul class="lista-amigos">
+            <li><strong>Woodstock:</strong> Su fiel amigo amarillo.</li>
+            <li><strong>Charlie Brown:</strong> Su dueño y al mismo tiempo su mejor amigo.</li>
+            <li><strong>Lucy van Pelt:</strong> La "psiquiatra" del vecindario.</li>
+        </ul>
     </section>
 
     <footer>
-        <p>Desarrollado por Pedro Rios</p>
+        <p>Desarrollado por Pedro Rios - Proyecto de HTML para Programación IV</p>
     </footer>
 </body>
 </html>
