@@ -23,4 +23,4 @@ Si quieres correr este proyecto en tu computadora, sigue estos pasos:
 4. Abre tu navegador web y entra a `http://localhost/Portafolio/index.php`.
 
 ---
-Desarrollado por Pedro Rí¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡
+Desarrollado por Pedro Ríos
